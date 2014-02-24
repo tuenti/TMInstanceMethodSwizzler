@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A9C459D18AE9D6500DE20EA /* TMInstanceMethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C459A18AE9D6500DE20EA /* TMInstanceMethodSwizzler.m */; };
+		1A9C459E18AE9D6500DE20EA /* TMInstanceMethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C459A18AE9D6500DE20EA /* TMInstanceMethodSwizzler.m */; };
+		1A9C459F18AE9D6500DE20EA /* TMTimeoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C459C18AE9D6500DE20EA /* TMTimeoutManager.m */; };
+		1A9C45A018AE9D6500DE20EA /* TMTimeoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C459C18AE9D6500DE20EA /* TMTimeoutManager.m */; };
+		1A9C45A418AE9D6E00DE20EA /* TMInstanceMethodSwizzlerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C45A218AE9D6E00DE20EA /* TMInstanceMethodSwizzlerTest.m */; };
+		1A9C45A518AE9D6E00DE20EA /* TMTimeoutManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C45A318AE9D6E00DE20EA /* TMTimeoutManagerTest.m */; };
+		1A9C45A818AE9DAF00DE20EA /* TMGenericTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C45A718AE9DAF00DE20EA /* TMGenericTestObject.m */; };
+		1AB85FF818AE949C00B7A18C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB85FF718AE949C00B7A18C /* Foundation.framework */; };
+		1AB85FFA18AE949C00B7A18C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB85FF918AE949C00B7A18C /* CoreGraphics.framework */; };
+		1AB85FFC18AE949C00B7A18C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB85FFB18AE949C00B7A18C /* UIKit.framework */; };
+		1AB8600218AE949C00B7A18C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AB8600018AE949C00B7A18C /* InfoPlist.strings */; };
+		1AB8600418AE949C00B7A18C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB8600318AE949C00B7A18C /* main.m */; };
+		1AB8600818AE949C00B7A18C /* TMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB8600718AE949C00B7A18C /* TMAppDelegate.m */; };
+		1AB8600B18AE949C00B7A18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB8600918AE949C00B7A18C /* Main.storyboard */; };
+		1AB8600E18AE949C00B7A18C /* TMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB8600D18AE949C00B7A18C /* TMViewController.m */; };
+		1AB8601018AE949C00B7A18C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB8600F18AE949C00B7A18C /* Images.xcassets */; };
+		1AB8601718AE949C00B7A18C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB8601618AE949C00B7A18C /* XCTest.framework */; };
+		1AB8601818AE949C00B7A18C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB85FF718AE949C00B7A18C /* Foundation.framework */; };
+		1AB8601918AE949C00B7A18C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB85FFB18AE949C00B7A18C /* UIKit.framework */; };
+		1AB8602118AE949C00B7A18C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AB8601F18AE949C00B7A18C /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AB8601A18AE949C00B7A18C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB85FEC18AE949B00B7A18C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB85FF318AE949C00B7A18C;
+			remoteInfo = "TMInstanceMethodSwizzler sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A9C459918AE9D6500DE20EA /* TMInstanceMethodSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMInstanceMethodSwizzler.h; sourceTree = "<group>"; };
+		1A9C459A18AE9D6500DE20EA /* TMInstanceMethodSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMInstanceMethodSwizzler.m; sourceTree = "<group>"; };
+		1A9C459B18AE9D6500DE20EA /* TMTimeoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMTimeoutManager.h; sourceTree = "<group>"; };
+		1A9C459C18AE9D6500DE20EA /* TMTimeoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMTimeoutManager.m; sourceTree = "<group>"; };
+		1A9C45A218AE9D6E00DE20EA /* TMInstanceMethodSwizzlerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMInstanceMethodSwizzlerTest.m; sourceTree = "<group>"; };
+		1A9C45A318AE9D6E00DE20EA /* TMTimeoutManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMTimeoutManagerTest.m; sourceTree = "<group>"; };
+		1A9C45A618AE9DAF00DE20EA /* TMGenericTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMGenericTestObject.h; path = ../../Tests/TMGenericTestObject.h; sourceTree = "<group>"; };
+		1A9C45A718AE9DAF00DE20EA /* TMGenericTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMGenericTestObject.m; path = ../../Tests/TMGenericTestObject.m; sourceTree = "<group>"; };
+		1AB85FF418AE949C00B7A18C /* TMInstanceMethodSwizzler sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMInstanceMethodSwizzler sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB85FF718AE949C00B7A18C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AB85FF918AE949C00B7A18C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1AB85FFB18AE949C00B7A18C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1AB85FFF18AE949C00B7A18C /* TMInstanceMethodSwizzler sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TMInstanceMethodSwizzler sample-Info.plist"; sourceTree = "<group>"; };
+		1AB8600118AE949C00B7A18C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AB8600318AE949C00B7A18C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AB8600518AE949C00B7A18C /* TMInstanceMethodSwizzler sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TMInstanceMethodSwizzler sample-Prefix.pch"; sourceTree = "<group>"; };
+		1AB8600618AE949C00B7A18C /* TMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAppDelegate.h; sourceTree = "<group>"; };
+		1AB8600718AE949C00B7A18C /* TMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAppDelegate.m; sourceTree = "<group>"; };
+		1AB8600A18AE949C00B7A18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AB8600C18AE949C00B7A18C /* TMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMViewController.h; sourceTree = "<group>"; };
+		1AB8600D18AE949C00B7A18C /* TMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMViewController.m; sourceTree = "<group>"; };
+		1AB8600F18AE949C00B7A18C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AB8601518AE949C00B7A18C /* TMInstanceMethodSwizzler sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TMInstanceMethodSwizzler sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB8601618AE949C00B7A18C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1AB8601E18AE949C00B7A18C /* TMInstanceMethodSwizzler sampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TMInstanceMethodSwizzler sampleTests-Info.plist"; sourceTree = "<group>"; };
+		1AB8602018AE949C00B7A18C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB85FF118AE949C00B7A18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB85FFA18AE949C00B7A18C /* CoreGraphics.framework in Frameworks */,
+				1AB85FFC18AE949C00B7A18C /* UIKit.framework in Frameworks */,
+				1AB85FF818AE949C00B7A18C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB8601218AE949C00B7A18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB8601718AE949C00B7A18C /* XCTest.framework in Frameworks */,
+				1AB8601918AE949C00B7A18C /* UIKit.framework in Frameworks */,
+				1AB8601818AE949C00B7A18C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A9C459818AE9D6500DE20EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A9C459918AE9D6500DE20EA /* TMInstanceMethodSwizzler.h */,
+				1A9C459A18AE9D6500DE20EA /* TMInstanceMethodSwizzler.m */,
+				1A9C459B18AE9D6500DE20EA /* TMTimeoutManager.h */,
+				1A9C459C18AE9D6500DE20EA /* TMTimeoutManager.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		1A9C45A118AE9D6E00DE20EA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A9C45A218AE9D6E00DE20EA /* TMInstanceMethodSwizzlerTest.m */,
+				1A9C45A318AE9D6E00DE20EA /* TMTimeoutManagerTest.m */,
+				1AB8601D18AE949C00B7A18C /* Supporting Files */,
+			);
+			name = Tests;
+			path = ../Tests;
+			sourceTree = "<group>";
+		};
+		1AB85FEB18AE949B00B7A18C = {
+			isa = PBXGroup;
+			children = (
+				1A9C459818AE9D6500DE20EA /* Classes */,
+				1A9C45A118AE9D6E00DE20EA /* Tests */,
+				1AB85FFD18AE949C00B7A18C /* Sample app */,
+				1AB85FF618AE949C00B7A18C /* Frameworks */,
+				1AB85FF518AE949C00B7A18C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB85FF518AE949C00B7A18C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB85FF418AE949C00B7A18C /* TMInstanceMethodSwizzler sample.app */,
+				1AB8601518AE949C00B7A18C /* TMInstanceMethodSwizzler sampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB85FF618AE949C00B7A18C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB85FF718AE949C00B7A18C /* Foundation.framework */,
+				1AB85FF918AE949C00B7A18C /* CoreGraphics.framework */,
+				1AB85FFB18AE949C00B7A18C /* UIKit.framework */,
+				1AB8601618AE949C00B7A18C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AB85FFD18AE949C00B7A18C /* Sample app */ = {
+			isa = PBXGroup;
+			children = (
+				1AB8600618AE949C00B7A18C /* TMAppDelegate.h */,
+				1AB8600718AE949C00B7A18C /* TMAppDelegate.m */,
+				1AB8600918AE949C00B7A18C /* Main.storyboard */,
+				1AB8600C18AE949C00B7A18C /* TMViewController.h */,
+				1AB8600D18AE949C00B7A18C /* TMViewController.m */,
+				1AB8600F18AE949C00B7A18C /* Images.xcassets */,
+				1AB85FFE18AE949C00B7A18C /* Supporting Files */,
+			);
+			name = "Sample app";
+			path = "TMInstanceMethodSwizzler sample";
+			sourceTree = "<group>";
+		};
+		1AB85FFE18AE949C00B7A18C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AB85FFF18AE949C00B7A18C /* TMInstanceMethodSwizzler sample-Info.plist */,
+				1AB8600018AE949C00B7A18C /* InfoPlist.strings */,
+				1AB8600318AE949C00B7A18C /* main.m */,
+				1AB8600518AE949C00B7A18C /* TMInstanceMethodSwizzler sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AB8601D18AE949C00B7A18C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A9C45A618AE9DAF00DE20EA /* TMGenericTestObject.h */,
+				1A9C45A718AE9DAF00DE20EA /* TMGenericTestObject.m */,
+				1AB8601E18AE949C00B7A18C /* TMInstanceMethodSwizzler sampleTests-Info.plist */,
+				1AB8601F18AE949C00B7A18C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			path = "../Sample app/TMInstanceMethodSwizzler sampleTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB85FF318AE949C00B7A18C /* TMInstanceMethodSwizzler sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB8602618AE949C00B7A18C /* Build configuration list for PBXNativeTarget "TMInstanceMethodSwizzler sample" */;
+			buildPhases = (
+				1AB85FF018AE949C00B7A18C /* Sources */,
+				1AB85FF118AE949C00B7A18C /* Frameworks */,
+				1AB85FF218AE949C00B7A18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TMInstanceMethodSwizzler sample";
+			productName = "TMInstanceMethodSwizzler sample";
+			productReference = 1AB85FF418AE949C00B7A18C /* TMInstanceMethodSwizzler sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AB8601418AE949C00B7A18C /* TMInstanceMethodSwizzler sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB8602918AE949C00B7A18C /* Build configuration list for PBXNativeTarget "TMInstanceMethodSwizzler sampleTests" */;
+			buildPhases = (
+				1AB8601118AE949C00B7A18C /* Sources */,
+				1AB8601218AE949C00B7A18C /* Frameworks */,
+				1AB8601318AE949C00B7A18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB8601B18AE949C00B7A18C /* PBXTargetDependency */,
+			);
+			name = "TMInstanceMethodSwizzler sampleTests";
+			productName = "TMInstanceMethodSwizzler sampleTests";
+			productReference = 1AB8601518AE949C00B7A18C /* TMInstanceMethodSwizzler sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB85FEC18AE949B00B7A18C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tuenti Technologies S.L.";
+				TargetAttributes = {
+					1AB8601418AE949C00B7A18C = {
+						TestTargetID = 1AB85FF318AE949C00B7A18C;
+					};
+				};
+			};
+			buildConfigurationList = 1AB85FEF18AE949C00B7A18C /* Build configuration list for PBXProject "TMInstanceMethodSwizzler sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AB85FEB18AE949B00B7A18C;
+			productRefGroup = 1AB85FF518AE949C00B7A18C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB85FF318AE949C00B7A18C /* TMInstanceMethodSwizzler sample */,
+				1AB8601418AE949C00B7A18C /* TMInstanceMethodSwizzler sampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB85FF218AE949C00B7A18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB8601018AE949C00B7A18C /* Images.xcassets in Resources */,
+				1AB8600218AE949C00B7A18C /* InfoPlist.strings in Resources */,
+				1AB8600B18AE949C00B7A18C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB8601318AE949C00B7A18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB8602118AE949C00B7A18C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB85FF018AE949C00B7A18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB8600E18AE949C00B7A18C /* TMViewController.m in Sources */,
+				1AB8600418AE949C00B7A18C /* main.m in Sources */,
+				1A9C459F18AE9D6500DE20EA /* TMTimeoutManager.m in Sources */,
+				1A9C459D18AE9D6500DE20EA /* TMInstanceMethodSwizzler.m in Sources */,
+				1AB8600818AE949C00B7A18C /* TMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB8601118AE949C00B7A18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9C459E18AE9D6500DE20EA /* TMInstanceMethodSwizzler.m in Sources */,
+				1A9C45A518AE9D6E00DE20EA /* TMTimeoutManagerTest.m in Sources */,
+				1A9C45A418AE9D6E00DE20EA /* TMInstanceMethodSwizzlerTest.m in Sources */,
+				1A9C45A818AE9DAF00DE20EA /* TMGenericTestObject.m in Sources */,
+				1A9C45A018AE9D6500DE20EA /* TMTimeoutManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB8601B18AE949C00B7A18C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB85FF318AE949C00B7A18C /* TMInstanceMethodSwizzler sample */;
+			targetProxy = 1AB8601A18AE949C00B7A18C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AB8600018AE949C00B7A18C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB8600118AE949C00B7A18C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1AB8600918AE949C00B7A18C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB8600A18AE949C00B7A18C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AB8601F18AE949C00B7A18C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB8602018AE949C00B7A18C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AB8602418AE949C00B7A18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AB8602518AE949C00B7A18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB8602718AE949C00B7A18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TMInstanceMethodSwizzler sample/TMInstanceMethodSwizzler sample-Prefix.pch";
+				INFOPLIST_FILE = "TMInstanceMethodSwizzler sample/TMInstanceMethodSwizzler sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AB8602818AE949C00B7A18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TMInstanceMethodSwizzler sample/TMInstanceMethodSwizzler sample-Prefix.pch";
+				INFOPLIST_FILE = "TMInstanceMethodSwizzler sample/TMInstanceMethodSwizzler sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1AB8602A18AE949C00B7A18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TMInstanceMethodSwizzler sample.app/TMInstanceMethodSwizzler sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TMInstanceMethodSwizzler sample/TMInstanceMethodSwizzler sample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TMInstanceMethodSwizzler sampleTests/TMInstanceMethodSwizzler sampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1AB8602B18AE949C00B7A18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TMInstanceMethodSwizzler sample.app/TMInstanceMethodSwizzler sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TMInstanceMethodSwizzler sample/TMInstanceMethodSwizzler sample-Prefix.pch";
+				INFOPLIST_FILE = "TMInstanceMethodSwizzler sampleTests/TMInstanceMethodSwizzler sampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB85FEF18AE949C00B7A18C /* Build configuration list for PBXProject "TMInstanceMethodSwizzler sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB8602418AE949C00B7A18C /* Debug */,
+				1AB8602518AE949C00B7A18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB8602618AE949C00B7A18C /* Build configuration list for PBXNativeTarget "TMInstanceMethodSwizzler sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB8602718AE949C00B7A18C /* Debug */,
+				1AB8602818AE949C00B7A18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB8602918AE949C00B7A18C /* Build configuration list for PBXNativeTarget "TMInstanceMethodSwizzler sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB8602A18AE949C00B7A18C /* Debug */,
+				1AB8602B18AE949C00B7A18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB85FEC18AE949B00B7A18C /* Project object */;
+}
