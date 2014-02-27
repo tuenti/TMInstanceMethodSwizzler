@@ -1,5 +1,8 @@
 # TMInstanceMethodSwizzler & TMTimeoutManager
 
+.. image:: https://travis-ci.org/jplana/TMInstanceMethodSwizzler.png?branch=master
+   :target: https://travis-ci.org/jplana/TMInstanceMethodSwizzler
+
 `TMInstanceMethodSwizzler` is a class which allows you to replace or modify an object's method implementation without affecting any other objects of the same class and without side effects either. It might be useful, for instance, to implement Aspect Oriented Programing and to create partial object mocks for testing. You can whatch this [YouTube video](http://www.youtube.com/watch?v=VS9gWhZUpVg) to know about it in greater detail.
 
 `TMTimeoutManager` is an example of use of the previous, which allows you to observe an object's method to be called before a certain timeout and specifying different blocks of code to be invoked depending on whether the method is called or not.
